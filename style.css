@@ -1,0 +1,28 @@
+@font-face {
+    font-family: hacker;
+    src: url(font/retro_computer_personal_use.ttf);
+
+    
+}
+
+@font-face {
+    font-family: hacker1;
+    src: url(font/Valorant\ Font.ttf);
+}
+
+@font-face {
+    font-family: hacker2;
+    src: url(font/62DRAGZ.otf);
+}
+
+@font-face {
+    font-family: hacker3;
+    src: url(font/Top\ Secret.ttf);
+}
+
+@font-face{
+
+    font-family: star_jedi;
+    src: url(font/Starjedi.ttf);
+
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  @font-face {
+      font-family: hacker;
+      src: url(font/retro_computer_personal_use.ttf);
+  
+      
+  }
+  
+  @font-face {
+      font-family: hacker1;
+      src: url(font/Valorant\ Font.ttf);
+  }
+  
+  @font-face {
+      font-family: hacker2;
+      src: url(font/62DRAGZ.otf);
+  }
+  
+  @font-face {
+      font-family: hacker3;
+      src: url(font/Top\ Secret.ttf);
+  }
+  
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
+  .container1,
+  .container2{
+      border-radius: 14px;
+      border: solid black 1px;
+      box-shadow: 0px 0px 10px;
+      background-color: black;
+      color: green;
+      font-family: hacker1;
+      text-align: center;
+  }
+  
+  .Ahmyth{
+      width: auto;
+      height: 360px;
+      border-radius: 14px;
+      margin-top: 10px;
+      margin-left: 15px;
+      margin-right: 1px;
+      text-align: center;
+      height: 200px;
+      background-color: whitesmoke;
+  }
+  
+
+
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="Dark_Web.html">Dark-web</a>
+  <a href="exp.html">Linux-Functions</a>
+  <a href="exp.html">Pre-made projects</a>
+  <a href="exp.html">Python products</a>
+  <a href="exp.html">Windows(Batch)</a>
+</div>
+
+
+<span style="font-size:30px;cursor:pointer;font-family: hacker1;" onclick="openNav()">&#9776; Menu</span>
+
+<div class="container1" style="font-family: hacker1;">
+<h1 >Android-Hijacking</h1>
+
+<p >
+    this is a process in which the attacker gets access to the victims personal information through thier smartphones.
+attackers get into phone systems just by following some steps such letting the target install their virus and getting enoh permissions to exploit victims privacy.
+such tools usesd by attackers to get into smartphones is called 'rat'(remote access toolkit) which can even pass through all the security measures accuired by the user
+</p>
+
+
+</div>
+
+<div class="Ahmyth">
+<image src="images/ahmyth1.png" style="border-radius: 14x;"></image>
+</div>
+
+<div class="container2" style="margin-top: 10px;font-family: hacker1;">
+<h1>ahmyth</h1>
+
+<p>
+    ahmyth is a very famous rat used by begginer pentesters.
+    ahmyth provides you a framework for construction and establishment of connections between attacker and victim.
+    it provides with basic information such live location, contacts, sms, camera activation, microphone activation and access storage.
+    to make it work we first generate the payload[virus] and install it in victims device with all the permissions it asks.
+    then we will put the framework to listen on the ip and port provided to  the payload where it will connect.
+    and now we can easily monitor victims activity
+</p>
+</div>
+
+<div class="Ahmyth">
+    <img src="images/ahmyth2.jpg" style="width: 100%; margin-right: 15px;"
+  </div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+   
+</body>
+</html> 
